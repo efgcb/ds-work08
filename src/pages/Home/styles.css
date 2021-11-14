@@ -1,7 +1,36 @@
-.home-container {
-    padding: 40px;
+.home-container-page {
+  padding: 40px;
+  background-color: white;
 }
 
 .start-button {
-    color: #fff;
+  color: #fff;
+  background-color: #1890ff;
+  border: 0px;
+  margin-top: 20px;
+}
+
+.start-button:hover {
+  background-color: #1890ff;
+}
+
+.start-button {
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  background-color: #1890ff;
+  border: 0px;
+  margin-top: 20px;
+  align-items: center;
+  margin: 0;
+}
+
+.home-container-page h1 {
+  color: #000000;
+  font-size: 40px;
+}
+
+.home-container-page h2 {
+  color: #7e7e7e;
+  font-size: 20px;
 }
